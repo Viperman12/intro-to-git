@@ -1,0 +1,118 @@
+Welcome to POST system 
+
+Input File: items.txt
+
+Beginning a new sale (Y/N)	Y
+----------------------------
+Enter product code: 0000
+
+item code       item name       unit price     
+A001            bottled water   1.50           
+A002            candy           1.00           
+A003            chocolate       2.50           
+A004            gum             1.00           
+A005            soda            2.50           
+A006            juice           3.00           
+B001            popcorn         2.50           
+B002            donut           1.50           
+B003            pretzel         2.00           
+A007            caramel         1.50           
+
+Enter product code: A001
+		 item name: bottled water
+Enter quantity:		1
+		item total: $   1.50
+Enter product code: A006
+		 item name: juice
+Enter quantity:		1
+		item total: $   3.00
+Enter product code: B003
+		 item name: pretzel
+Enter quantity:		2
+		item total: $   4.00
+Enter product code: -1
+----------------------------
+Item Listed:
+    1 bottled water $   1.50
+    1 juice         $   3.00
+    2 pretzel       $   4.00
+Subtotal			$   8.50
+Total with Tax (6%) $   8.77
+Tendered amount 	$   10
+Change				$   1.23
+----------------------------
+
+Beginning a new sale (Y/N)	Y
+----------------------------
+Enter product code: A005
+		 item name: soda
+Enter quantity:		10
+		item total: $  25.00
+Enter product code: B001
+		 item name: popcorn
+Enter quantity:		3
+		item total: $   7.50
+Enter product code: -1
+----------------------------
+Item Listed:
+    3 popcorn       $   7.50
+   10 soda          $  25.00
+Subtotal			$  32.50
+Total with Tax (6%) $  34.00
+Tendered amount 	$  35
+Change				$   1.00
+----------------------------
+
+Beginning a new sale (Y/N)	Y
+----------------------------
+Enter product code: A002
+		 item name: candy
+Enter quantity:		1
+		item total: $   1.00
+Enter product code: A003
+		 item name: chocolate
+Enter quantity:		2
+		item total: $   5.00
+Enter product code: A007
+		 item name: caramel
+Enter quantity:		1
+		item total: $   1.50
+Enter product code: A001
+		 item name: bottled water
+Enter quantity:		4
+		item total: $   6.00
+Enter product code: -1
+----------------------------
+Item Listed:
+    4 bottled water $   6.00
+    1 candy         $   1.00
+    2 chocolate     $   5.00
+    1 caramel       $   1.50
+Subtotal			$  13.50
+Total with Tax (6%) $  14.31
+Tendered amount 	$  15
+Change				$   0.69
+----------------------------
+
+Beginning a new sale (Y/N)	N
+The total sale for the day is $	54.50
+
+Do you want to update the items data? (A/D/M/Q): D
+item code: B003
+Item delete successful
+Do you want to update the items data? (A/D/M/Q): Q
+
+item code       item name       unit price     
+A001            bottled water   1.50           
+A002            candy           1.00           
+A003            chocolate       2.50           
+A004            gum             1.00           
+A005            soda            2.50           
+A006            juice           3.00           
+B001            popcorn         2.50           
+B002            donut           1.50           
+A007            caramel         1.50           
+
+Thanks for using POST system. Goodbye
+
+Process finished with exit code 0
